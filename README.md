@@ -7,6 +7,8 @@
 
 ### 运行
 
+克隆项目文件
+
 ```
 git clone https://github.com/pengguangyao/tuitang.git
 ```
