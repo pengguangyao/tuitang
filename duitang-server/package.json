@@ -1,0 +1,19 @@
+{
+  "name": "duitang-server",
+  "version": "1.0.0",
+  "description": "堆糖服务器",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "imhao.qiao@qq.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "formidable": "^1.2.1",
+    "mongoose": "^5.2.8",
+    "node-fetch": "^2.2.0",
+    "query-string": "^6.1.0"
+  }
+}

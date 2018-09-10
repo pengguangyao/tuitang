@@ -1,0 +1,8 @@
+var express = require("express")
+var app = express()
+var DiaryController = require("./controllers/DiaryController.js")
+var AuthorController = require("./controllers/AuthorController.js")
+app.get('/author', AuthorController.getAuthorList)
+app.get('/newauthor',AuthorController.getNewAuthorList)
+app.get('/diaries', DiaryController.getDiaryList)
+app.listen(3000)
